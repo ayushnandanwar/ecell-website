@@ -3,7 +3,7 @@ section{
 }
 .center_content{
     width: 100%;
-    padding:0 80px;
+    padding:0 6%;
     margin: 0 auto;
 }
 .description{
@@ -14,4 +14,17 @@ section{
 
 .text-grey{
     color: gray;
+}
+.btn_register{
+    background-color: white;
+    padding: 7px 25px;
+    border: 1px solid white;
+    border-radius: 7px;
+    transition: all .3s;
+}
+.btn_register:hover{
+    background-color: black;
+    border: 1px solid white;
+    color: white;
+
 }
