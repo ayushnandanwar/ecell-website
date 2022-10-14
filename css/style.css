@@ -6,14 +6,8 @@ section{
     padding:0 6%;
     margin: 0 auto;
 }
-.description{
-    display: flex;
-    flex-direction: column;
-    
-}
-
 .text-grey{
-    color: gray;
+    color: gray ;
 }
 .btn_register{
     background-color: white;
@@ -28,3 +22,25 @@ section{
     color: white;
 
 }
+.btn_read_more{
+    background-color: black;
+    color: white;
+    padding: 7px 25px;
+    border: 1px solid white;
+    transition: all .3s;
+}
+.btn_read_more:hover{
+    background-color: yellow;
+    border: 1px solid yellow;
+    color: black;
+
+}
+#home,#about{
+    font-size: 3.5rem;
+}
+
+@media screen and (max-width: 480px) {
+    #home,#about{
+        font-size: 2.5rem;
+    }
+  }
