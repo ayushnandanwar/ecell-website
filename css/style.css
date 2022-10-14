@@ -1,6 +1,25 @@
 section{
     padding-top: 170px !important;
+    transition: all .3s;
+    position: relative;
+    left: -500px;
+    z-index: 99;
 }
+.section_ani{
+    animation: section_animation 1s 1 alternate forwards;
+}
+@keyframes section_animation {
+    from{
+        left: -500px;
+        opacity: 0;
+
+    }
+    to{
+        left: 0;
+        opacity: 1;
+    }
+}
+
 .center_content{
     width: 100%;
     padding:0 6%;
