@@ -11,7 +11,7 @@ function reveal() {
       } else {
         reveals[i].classList.remove("section_ani");
       }
-      if(elementTop < -330) reveals[i].classList.remove("section_ani");
+      // if(elementTop < -330) reveals[i].classList.remove("section_ani");
     }
   }
   
