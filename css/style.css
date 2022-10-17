@@ -109,4 +109,106 @@ section{
     .events_message{
         font-size: 3.5rem;
     }
-  
+  #events {
+    text-align: center;
+    align-items: center;
+}
+
+.text-yellow {
+    color: rgb(255, 204, 0);
+}
+
+.events_message {
+    font-size: 3.5rem;
+}
+
+#event {
+    overflow: hidden;
+    height: 600px;
+    width: 840px;
+    margin: 0 auto;
+    font-family: Helvetica, sans-serif;
+    padding: 5%;
+    text-align: center;
+    font-size: 50;
+    color: azure;
+}
+
+/* Style each of the sides
+	with a fixed width and height */
+.ev {
+
+    font-size: 4vw;
+    color: white;
+    font-weight: bold;
+    position: relative;
+    top: 75%;
+    padding-left: 20px;
+}
+
+.slide {
+    float: left;
+    height: 600px;
+    width: 840px;
+}
+
+/* Add animation to the slides */
+
+.slide-wrapper {
+
+    /* Calculate the total width on the
+	basis of number of slides */
+    width: calc(840px * 3);
+
+    /* Specify the animation with the
+	duration and speed */
+    animation: slide 10s ease infinite;
+}
+
+/* Set the background color
+	of each of the slides */
+
+.slide:nth-child(1) {
+    background: green;
+    background-image: url("https://youthincmag.com/wp-content/uploads/2022/04/Closing-Ceremony-E-Summit22.jpg");
+
+    background-size: cover;
+}
+
+.slide:nth-child(2) {
+
+    background-image: url("https://i.ytimg.com/vi/-dRNNCgb1sE/mqdefault.jpg");
+    background-size: cover;
+}
+
+.slide:nth-child(3) {
+
+    background-image: url("https://miro.medium.com/max/1400/1*kpIpJIu7z4o8MdWwX8uCuw.jpeg");
+    background-size: cover;
+}
+
+
+
+/* Define the animation
+	for the event */
+
+@keyframes slide {
+
+    /* Calculate the margin-left for
+	each of the slides */
+    20% {
+        margin-left: 0px;
+    }
+
+    40% {
+        margin-left: calc(-728px * 1);
+    }
+
+    60% {
+        margin-left: calc(-728px * 2);
+    }
+
+    80% {
+        margin-left: calc(-728px * 3);
+    }
+}
