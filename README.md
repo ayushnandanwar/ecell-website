@@ -11,6 +11,8 @@ Read [CONTRIBUTING.md](https://github.com/ayushnandanwar08/ecell-website/blob/ma
 
 The Theme is given below
 
+[Click Here to see theme](https://github.com/ayushnandanwar08/ecell-website/blob/master/images/UI.png)
+
 ![](/images/Ui.png)
 
 
