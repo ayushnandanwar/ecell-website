@@ -12,6 +12,6 @@ Or see the issues that has created and comment there to assign you.
 - commit your changes
 - make PR
 
-![](/Images/Ui.png)
+![](/images/Ui.png)
 
 

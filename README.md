@@ -11,6 +11,6 @@ Read [CONTRIBUTING.md](https://github.com/ayushnandanwar08/ecell-website/blob/ma
 
 The Theme is given below
 
-![](/mages/Ui.png)
+![](/images/Ui.png)
 
 
