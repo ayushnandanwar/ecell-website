@@ -95,6 +95,18 @@ section{
     padding: 25px;
     position: absolute;
     right: 0%;
+    }
 
+    #events{
+        text-align: center;
+        align-items: center;
+    }
+
+    .text-yellow{
+        color: rgb(255, 204, 0);
+    }
+
+    .events_message{
+        font-size: 3.5rem;
     }
   
