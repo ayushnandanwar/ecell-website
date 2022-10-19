@@ -109,4 +109,49 @@ section{
     .events_message{
         font-size: 3.5rem;
     }
-  
+  #events {
+    text-align: center;
+    align-items: center;
+}
+
+.text-yellow {
+    color: rgb(255, 204, 0);
+}
+
+.events_message {
+    font-size: 3.5rem;
+}
+
+#button:hover {
+    background-color: yellow;
+    color: black;
+    border-color: yellow;
+}
+
+#button{
+    background-color: black;
+    color: white;
+    border-color: white;
+    border-radius: 0%;
+}
+
+.card-body {
+    color: white;
+    background-color: black;
+}
+
+.flex-container {
+    display: flex;
+    background-color: black;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    margin: 100px;
+    padding: 0px;
+    font-size: 1.4vw;
+}
+.ev{
+    margin-top: 100px;
+}
+
