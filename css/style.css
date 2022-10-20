@@ -69,6 +69,7 @@ section{
     height: 50vw;
     width: 100%;
     margin: auto;
+    margin-top: 100px;
     background-repeat: no-repeat;
     background-size: cover;
 
@@ -100,6 +101,7 @@ section{
     #events{
         text-align: center;
         align-items: center;
+        height: 40vw;
     }
 
     .text-yellow{
@@ -109,4 +111,50 @@ section{
     .events_message{
         font-size: 3.5rem;
     }
-  
+    
+    .gallery{
+        height: 60vw;
+        width: 90%;
+        margin: 5vw;
+        text-align: center;
+        border: 1px solid white;
+        padding-left: 10%;
+    }
+    .gallery_column{
+        display: flex;
+        flex-direction: column;
+        float: right;
+        padding-right: 20%;
+}
+    .gallery_row{
+        display: flex;
+        flex-direction: row;   
+}
+    #img1{
+        height: 16vw;
+        width:100%;
+        margin: 1vw;
+}
+    #img2{
+        height: 34vw;
+        width: 30%;
+        margin-top: 1vw;
+        margin: 1vw;
+}
+    #img3{
+        height: 16vw;
+        width:100%;
+        margin: 1vw;
+}
+    #img4{
+        height: 16vw;
+        width:100%;
+        margin: 1vw;
+}
+    #img5{
+        height: 16vw;
+        width:100%;
+        margin: 1vw;
+}
+
+    
