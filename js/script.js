@@ -2,9 +2,9 @@ function reveal() {
     var reveals = document.querySelectorAll("section");
   
     for (var i = 0; i < reveals.length; i++) {
-      var windowHeight = window.innerHeight;
+      var windowHeight = window.outerHeight;
       var elementTop = reveals[i].getBoundingClientRect().top;
-      var elementVisible = 250;
+      var elementVisible = 0;
   
       if (elementTop < windowHeight - elementVisible) {
         reveals[i].classList.add("section_ani");
