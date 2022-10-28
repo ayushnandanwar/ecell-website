@@ -1,8 +1,13 @@
+*{
+   opacity:1;
+}
+
 section{
-    padding-top: 170px !important;
+    padding-top: 150px !important;
     transition: all .3s;
     position: relative;
-    bottom: -500px;
+    bottom: 0;
+    opacity: 0;
     z-index: 99;
 }
 #navbarSupportedContent {
@@ -52,7 +57,6 @@ button {
     from{
         bottom: -500px;
         opacity: 0;
-
     }
     to{
         bottom: 0;
@@ -198,4 +202,21 @@ button {
 }
 .achievemessage{
     font-size: 3.5rem;
+}
+=======
+
+.trophy{
+    position: absolute;
+    right: 1vw;
+    filter: grayscale(100%);
+    top: -10px;
+    overflow: hidden;
+    z-index: -1;
+    height:99%;
+    transform: rotate(-30deg);
+}
+.foot{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
