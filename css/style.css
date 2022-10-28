@@ -5,6 +5,46 @@ section{
     bottom: -500px;
     z-index: 99;
 }
+#navbarSupportedContent {
+  display: flex;
+}
+.center_content {
+  margin: 0px;
+  padding: 0px;
+}
+.navbar-collapse {
+  display: flex;
+}
+ul {
+  display: flex;
+  margin: 0px;
+  padding: 0px 0px 0px 0.8vw;
+}
+.container-fluid {
+  display: flex;
+  justify-content: center;
+}
+ul li {
+  margin: 0px 12vw 0px 0px;
+}
+ul li a {
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+ul li a:hover {
+  text-decoration: underline;
+  font-style: italic;
+  color: white;
+}
+.d-flex {
+  margin: auto 0px;
+}
+button {
+  font-size: 1vw;
+  margin: 0px 0px 0px 1vw;
+  padding: 0px;
+}
+
 .section_ani{
     animation: section_animation 1s 1 alternate forwards;
 }
