@@ -105,7 +105,6 @@ section{
     #events{
         text-align: center;
         align-items: center;
-        height: 40vw;
     }
 
     .text-yellow{
@@ -173,6 +172,39 @@ section{
     z-index: -1;
     height:99%;
     transform: rotate(-30deg);
+}
+.team_img{
+    position: relative;
+    border-radius: 2rem;
+}
+.member_name{
+    position: absolute; 
+    bottom: 20px;
+}
+.smlogo{
+    position: absolute; 
+    bottom: 0px;
+}
+.btn_more_team{
+    background-color: #ffc107;
+    color: black;
+    padding: 7px 25px;
+    border: 1px solid black;
+    transition: all .3s;
+}
+.btn_more_team:hover{
+    background-color: yellow;
+    border: 1px solid yellow;
+    color: black;
+}
+
+.card{
+    border: transparent !important;
+    border-radius: 2rem !important;
+    box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.7);
+}
+.card:hover{
+    transform: scale(1.01);
 }
 .foot{
     display: flex;
