@@ -105,7 +105,6 @@ section{
     #events{
         text-align: center;
         align-items: center;
-        height: 40vw;
     }
 
     .text-yellow{
@@ -176,6 +175,7 @@ section{
 }
 .team_img{
     position: relative;
+    border-radius: 2rem;
 }
 .member_name{
     position: absolute; 
@@ -188,7 +188,6 @@ section{
 .btn_more_team{
     background-color: #ffc107;
     color: black;
-    
     padding: 7px 25px;
     border: 1px solid black;
     transition: all .3s;
@@ -197,7 +196,6 @@ section{
     background-color: yellow;
     border: 1px solid yellow;
     color: black;
-
 }
 
 .card{
@@ -207,9 +205,6 @@ section{
 }
 .card:hover{
     transform: scale(1.01);
-}
-.team_img{
-    border-radius: 2rem;
 }
 .foot{
     display: flex;
