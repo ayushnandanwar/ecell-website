@@ -181,10 +181,7 @@ section{
     position: absolute; 
     bottom: 20px;
 }
-.smlogo{
-    position: absolute; 
-    bottom: 0px;
-}
+
 .btn_more_team{
     background-color: #ffc107;
     color: black;
@@ -197,6 +194,11 @@ section{
     border: 1px solid yellow;
     color: black;
 }
+.smlogo{
+    position: absolute; 
+    bottom: 0px;
+    padding: 4px 0;
+}
 
 .card{
     border: transparent !important;
@@ -206,9 +208,20 @@ section{
 .card:hover{
     transform: scale(1.01);
 }
+.footer{
+    padding: 0 30px;
+}
 .foot{
     display: flex;
+    width: 100%;
+    align-items: center;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content:space-between;
+}
+.smlogo_footer{
+    font-size: 1.2rem;
+}
+.smlogo_footer > *{
+    padding: 0 5px;
 }
 
