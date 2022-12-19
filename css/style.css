@@ -1,6 +1,15 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
 *{
    opacity:1;
+   box-sizing: border-box;
+   font-family: 'Poppins', sans-serif;
+
 }
+body{
+    width: 98vw;
+}
+
 
 section{
     padding-top: 150px !important;
@@ -9,6 +18,7 @@ section{
     bottom: 0;
     opacity: 0;
     z-index: 99;
+    width: 100vw;
 }
 .section_ani{
     animation: section_animation 1s 1 alternate forwards;
@@ -38,6 +48,7 @@ section{
     border: 1px solid white;
     border-radius: 7px;
     transition: all .3s;
+    font-size: 2rem;
 }
 .btn_register:hover{
     background-color: black;
@@ -51,27 +62,38 @@ section{
     padding: 7px 25px;
     border: 1px solid white;
     transition: all .3s;
+    font-size: 1.5rem;
 }
 .btn_read_more:hover{
-    background-color: yellow;
-    border: 1px solid yellow;
+    background-color: #FACA00;
+    border: 1px solid #FACA00;
     color: black;
 
 }
-#home,#about{
-    font-size: 3.5rem;
+#home,#about,.vision-box{
+    height: 100vh;
+}
+.about_title{
+    font-size: 5rem;
+}
+.f2rem{
+   font-size: 2rem; 
 }
 
+
+
+
 @media screen and (max-width: 480px) {
-    #home,#about{
+    #home,#about,#events,.vision-box{
+        height: fit-content;
         font-size: 2.5rem;
     }
-  }
+}
 
   .vision-box{
     background-image: url('https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20(1%20of%201)-5.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVzaW5lc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60');
-    height: 50vw;
-    width: 100%;
+    height: 95vh;
+    width: 88%;
     margin: auto;
     margin-top: 100px;
     background-repeat: no-repeat;
@@ -79,27 +101,27 @@ section{
 
   }
   .vision{
-    font-size: 4vw;
+    font-size: 7.5rem;
     color: white;
     font-weight: bold;
     position: relative;
     top:75%;
-    padding-left: 20px;
+    padding-left: 25px;
   }
   
   .vision-message{
     height: fit-content;
-    width: 60vw;
-    background-color: rgb(255, 204, 0);
+    width: 70vw;
+    background-color: #FACA00;
     opacity: 1;
     color: white;
-    font-weight: bold;
+    font-weight: 400;
     float: right;
-    margin-top:1.4vw;
-    font-size: 1.4vw;
     padding: 25px;
+    margin-top: 30px;
     position: absolute;
     right: 0%;
+    font-size: 2rem;
     }
 
     #events{
@@ -108,20 +130,20 @@ section{
     }
 
     .text-yellow{
-        color: rgb(255, 204, 0);
+        color: #FACA00;
     }
 
     .events_message{
-        font-size: 3.5rem;
+        font-size: 6.25rem;
     }
     
     .gallery{
-        height: 60vw;
+        height: fit-content;
         width: 90%;
         margin: 5vw;
         text-align: center;
-        border: 1px solid white;
-        padding-left: 10%;
+        /* border: 1px solid white; */
+        /* padding-left: 10%; */
     }
     .gallery_column{
         display: flex;
@@ -160,17 +182,20 @@ section{
         margin: 1vw;
 }
 .achievemessage{
-    font-size: 3.5rem;
+    font-size: 2.8rem;
+}
+.achievemessage > *{
+    padding: 4px 0;
 }
 
 .trophy{
     position: absolute;
-    right: 1vw;
+    right: 10vw;
     filter: grayscale(100%);
     top: -10px;
     overflow: hidden;
     z-index: -1;
-    height:99%;
+    height:70%;
     transform: rotate(-30deg);
 }
 .team_img{
@@ -183,15 +208,15 @@ section{
 }
 
 .btn_more_team{
-    background-color: #ffc107;
+    background-color: #FACA00;
     color: black;
     padding: 7px 25px;
     border: 1px solid black;
     transition: all .3s;
 }
 .btn_more_team:hover{
-    background-color: yellow;
-    border: 1px solid yellow;
+    background-color: #FACA00;
+    border: 1px solid #FACA00;
     color: black;
 }
 .smlogo{
