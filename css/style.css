@@ -1,270 +1,279 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap');
-*{
-   opacity:1;
-   box-sizing: border-box;
-   font-family: 'Poppins', sans-serif;
-
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;1,500&display=swap");
+* {
+  opacity: 1;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
 }
-body{
-    width: 98vw;
+body {
+  width: 98vw;
 }
 
-
-section{
-    padding-top: 150px !important;
-    transition: all .3s;
-    bottom: 0; 
-    z-index: 99;
-    height: 100vh;
+section {
+  padding-top: 150px !important;
+  transition: all 0.3s;
+  bottom: 0;
+  z-index: 99;
+  height: 100vh;
+  height: fit-content;
 }
-.section_ani{
-    animation: section_animation 1s 1 alternate forwards;
+.section_ani {
+  animation: section_animation 1s 1 alternate forwards;
 }
 @keyframes section_animation {
-    from{
-        bottom: -500px;
-        opacity: 0;
-    }
-    to{
-        bottom: 0;
-        opacity: 1;
-    }
+  from {
+    bottom: -500px;
+    opacity: 0;
+  }
+  to {
+    bottom: 0;
+    opacity: 1;
+  }
 }
 
-.center_content{
-    width: 100%;
-    padding:0 6%;
-    margin: 0 auto;
+.center_content {
+  width: 100%;
+  padding: 0 6%;
+  margin: 0 auto;
 }
-.text-grey{
-    color: gray ;
+.text-grey {
+  color: gray;
 }
-.btn_register{
-    background-color: white;
-    padding: 7px 25px;
-    border: 1px solid white;
-    border-radius: 7px;
-    transition: all .3s;
-    font-size: 2rem;
+.btn_register {
+  background-color: white;
+  padding: 7px 25px;
+  border: 1px solid white;
+  border-radius: 7px;
+  transition: all 0.3s;
+  font-size: 2rem;
 }
-.btn_register:hover{
-    background-color: black;
-    border: 1px solid white;
-    color: white;
-
+.btn_register:hover {
+  background-color: black;
+  border: 1px solid white;
+  color: white;
 }
-.btn_read_more{
-    background-color: black;
-    color: white;
-    padding: 7px 25px;
-    border: 1px solid white;
-    transition: all .3s;
-    font-size: 1.5rem;
+.btn_read_more {
+  background-color: black;
+  color: white;
+  padding: 7px 25px;
+  border: 1px solid white;
+  transition: all 0.3s;
+  font-size: 1.5rem;
 }
-.btn_read_more:hover{
-    background-color: #FACA00;
-    border: 1px solid #FACA00;
-    color: black;
-
+.btn_read_more:hover {
+  background-color: #faca00;
+  border: 1px solid #faca00;
+  color: black;
 }
-#home,#about,.vision-box{
-    /* height: 100vh; */
+#home,
+#about,
+.vision-box {
+  /* height: 100vh; */
 }
-.about_title{
-    font-size: 5rem;
+.about_title {
+  font-size: 5rem;
 }
-.f2rem{
-   font-size: 2rem; 
+.f2rem {
+  font-size: 2rem;
 }
-
-
-
-
 
 @media screen and (max-width: 480px) {
-    #home,#about,#events,.vision-box{
-        height: fit-content;
-        font-size: 2.5rem;
-    }
+  #home,
+  #about,
+  #events,
+  .vision-box {
+    height: fit-content;
+    font-size: 2.5rem;
+  }
 }
 
-  .vision-box{
-    background-image: url('https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20(1%20of%201)-5.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVzaW5lc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60');
-    height: 95vh;
-    width: 88%;
-    margin: auto;
-    margin-top: 100px;
-    background-repeat: no-repeat;
-    background-size: cover;
+.vision-box {
+  background-image: url("https://images.unsplash.com/39/lIZrwvbeRuuzqOoWJUEn_Photoaday_CSD%20(1%20of%201)-5.jpg?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8YnVzaW5lc3N8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60");
+  height: 95vh;
+  width: 88%;
+  margin: auto;
+  margin-top: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.vision {
+  font-size: 7.5rem;
+  color: white;
+  font-weight: bold;
+  position: relative;
+  top: 75%;
+  padding-left: 25px;
+}
 
-  }
-  .vision{
-    font-size: 7.5rem;
-    color: white;
-    font-weight: bold;
-    position: relative;
-    top:75%;
-    padding-left: 25px;
-  }
+.vision-message {
+  height: fit-content;
+  width: 70vw;
+  background-color: #faca00;
+  opacity: 1;
+  color: white;
+  font-weight: 400;
+  float: right;
+  padding: 25px;
+  margin-top: 30px;
+  position: absolute;
+  right: 0%;
+  font-size: 2rem;
+}
+
+#events {
+  text-align: center;
+  align-items: center;
+}
+
+.text-yellow {
+  color: #faca00;
+}
+
+.events_message {
+  font-size: 5.75rem;
+}
+
+.gallery {
+  /* height: fit-content; */
+  width: 80%;
+  margin: 5vw auto;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  height: 200vh;
+  justify-content: start;
+  /* align-items:flex-start; */
   
-  .vision-message{
-    height: fit-content;
-    width: 70vw;
-    background-color: #FACA00;
-    opacity: 1;
-    color: white;
-    font-weight: 400;
-    float: right;
-    padding: 25px;
-    margin-top: 30px;
-    position: absolute;
-    right: 0%;
-    font-size: 2rem;
-    }
 
-    #events{
-        text-align: center;
-        align-items: center;
-    }
-
-    .text-yellow{
-        color: #FACA00;
-    }
-
-    .events_message{
-        font-size: 6.25rem;
-    }
-    
-    .gallery{
-        height: fit-content;
-        width: 90%;
-        margin: 5vw;
-        text-align: center;
-        /* border: 1px solid white; */
-        /* padding-left: 10%; */
-    }
-    .gallery_column{
-        display: flex;
-        flex-direction: column;
-        float: right;
-        padding-right: 20%;
-}
-    .gallery_row{
-        display: flex;
-        flex-direction: row;   
-}
-    #img1{
-        height: 16vw;
-        width:100%;
-        margin: 1vw;
-}
-    #img2{
-        height: 34vw;
-        width: 30%;
-        margin-top: 1vw;
-        margin: 1vw;
-}
-    #img3{
-        height: 16vw;
-        width:100%;
-        margin: 1vw;
-}
-    #img4{
-        height: 16vw;
-        width:100%;
-        margin: 1vw;
-}
-    #img5{
-        height: 16vw;
-        width:100%;
-        margin: 1vw;
-}
-.achievemessage{
-    font-size: 2.8rem;
-}
-.achievemessage > *{
-    padding: 4px 0;
+  /* border: 1px solid white; */
+  /* padding-left: 10%; */
 }
 
-#team{
-    height: fit-content;
-}
-
-.team_bold{
-    font-weight: bolder !important;
-    font-size: 1.3rem;
-}
-.team_bold1{
-    font-weight: bolder !important;
-    font-size: 4rem;
-}
-
-.trophy{
-    position: absolute;
-    right: 10vw;
-    filter: grayscale(100%);
-    top: -10px;
-    overflow: hidden;
-    z-index: -1;
-    height:70%;
-    transform: rotate(-30deg);
-}
-.team_img{
+.gallery > div{
+    padding: 1%;
     position: relative;
-    border-radius: 2rem;
 }
-.member_name{
-    position: absolute; 
-    bottom: 40px;
-}
-
-.btn_more_team{
-    background-color: #FACA00;
-    color: black;
-    padding: 7px 25px;
-    border: 1px solid black;
-    transition: all .3s;
-}
-.btn_more_team:hover{
-    background-color: #FACA00;
-    border: 1px solid #FACA00;
-    color: black;
-}
-.smlogo{
-    margin-top: 5px;
-    position: absolute; 
-    bottom: 10px;
-    padding: 4px 0;
-    font-size: 1.3rem;
+.gallery > div > p{
+    position: absolute;
+    color: white;
+    font-weight: bolder;
+    bottom: 20px;
+    font-size: 2rem;
+    left: 30px;
 }
 
-.card{
-    border: transparent !important;
-    border-radius: 2rem !important;
-    
-    box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.7);
+
+
+#img1 {
+  height: 16vw;
+  width: 100%;
+  margin: 1vw;
 }
-.card > .member_name,.card > .smlogo{
-    padding-left: 25px;
+#img2 {
+  height: 34vw;
+  width: 30%;
+  margin-top: 1vw;
+  margin: 1vw;
 }
-.card:hover{
-    transform: scale(1.01);
+#img3 {
+  height: 16vw;
+  width: 100%;
+  margin: 1vw;
 }
-.footer{
-    padding: 0 30px;
+#img4 {
+  height: 16vw;
+  width: 100%;
+  margin: 1vw;
 }
-.foot{
-    display: flex;
-    width: 100%;
-    align-items: center;
-    flex-direction: row;
-    justify-content:space-between;
+#img5 {
+  height: 16vw;
+  width: 100%;
+  margin: 1vw;
 }
-.smlogo_footer{
-    font-size: 1.2rem;
+.achievemessage {
+  font-size: 2.8rem;
 }
-.smlogo_footer > *{
-    padding: 0 5px;
+.achievemessage > * {
+  padding: 4px 0;
 }
 
+#team {
+  height: fit-content;
+}
+
+.team_bold {
+  font-weight: bolder !important;
+  font-size: 1.3rem;
+}
+.team_bold1 {
+  font-weight: bolder !important;
+  font-size: 4rem;
+}
+
+.trophy {
+  position: absolute;
+  right: 10vw;
+  filter: grayscale(100%);
+  top: -10px;
+  overflow: hidden;
+  z-index: -1;
+  height: 70%;
+  transform: rotate(-30deg);
+}
+.team_img {
+  position: relative;
+  border-radius: 2rem;
+}
+.member_name {
+  position: absolute;
+  bottom: 40px;
+}
+
+.btn_more_team {
+  background-color: #faca00;
+  color: black;
+  padding: 7px 25px;
+  border: 1px solid black;
+  transition: all 0.3s;
+}
+.btn_more_team:hover {
+  background-color: #faca00;
+  border: 1px solid #faca00;
+  color: black;
+}
+.smlogo {
+  margin-top: 5px;
+  position: absolute;
+  bottom: 10px;
+  padding: 4px 0;
+  font-size: 1.3rem;
+}
+
+.card {
+  border: transparent !important;
+  border-radius: 2rem !important;
+
+  box-shadow: 5px 5px 15px 0px rgba(50, 50, 50, 0.7);
+}
+.card > .member_name,
+.card > .smlogo {
+  padding-left: 25px;
+}
+.card:hover {
+  transform: scale(1.01);
+}
+.footer {
+  padding: 0 30px;
+}
+.foot {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.smlogo_footer {
+  font-size: 1.2rem;
+}
+.smlogo_footer > * {
+  padding: 0 5px;
+}
